@@ -13,6 +13,7 @@ Experiments in online marketing. Every repo is a hypothesis with a metric attach
 | [kiln](https://github.com/boomly/kiln) | — |
 | [poc](https://github.com/boomly/poc) | — |
 
+Private work lives in member-only repos.
 
 Every repo here is a hypothesis with a metric attached.
 Wins and losses are both recorded; failed experiments are archived, not deleted.
