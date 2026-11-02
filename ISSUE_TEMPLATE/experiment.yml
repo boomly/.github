@@ -1,0 +1,36 @@
+name: Experiment
+description: Propose or log a marketing experiment
+title: "[EXP] "
+labels: ["experiment"]
+body:
+  - type: input
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: "If we <change>, then <metric> will <move>, because <reason>."
+    validations:
+      required: true
+  - type: input
+    id: channel
+    attributes:
+      label: Channel
+      placeholder: SEO / paid search / email / social / lifecycle
+    validations:
+      required: true
+  - type: input
+    id: metric
+    attributes:
+      label: Primary metric
+      placeholder: CTR, CAC, ROAS, signup rate
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: Fill this in when the experiment closes.
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options: [Pending, Win, Loss, Inconclusive]
